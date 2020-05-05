@@ -11,14 +11,17 @@ This is code used to program a MC9S12XEP100 to create a Sonar Range Finder. This
 
 ### Files Discription
 
-**SonarRangeFinder/ECET309_Lab10&11/Sources/ECT.c**
-- file contains the inititalization process for the Enhanced Capture Timer
-
 **SonarRangeFinder/ECET309_Lab10&11/defs.c**
 - file contains defines for different settings on the LCD screen 
 
 **SonarRangeFinder/ECET309_Lab10&11/protos.h**
 - function prototypes
 
-**SonarRangeFinder/ECET309_Lab10&11/defs.c**
-- 
+**SonarRangeFinder/ECET309_Lab10&11/Sources/ECT.c**
+- file contains the inititalization process for the Enhanced Capture Timer
+
+**SonarRangeFinder/ECET309_Lab10&11/Sources/LCDfunctions.c**
+- contains all the functions to create the LCD drive
+
+
+
