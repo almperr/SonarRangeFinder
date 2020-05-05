@@ -2,7 +2,7 @@
 //Class:ECET 309
 //Assignment:Lab 10 & 11 - Sonar  
 //Date:3/29/2018
-//File Description: This file contains functions that drive the sonar module to send a pulse, used ECT to time echo, and display data on LCD  
+//File Description: This file contains functions that drive the sonar module to send/receive a pulse, used ECT to time echo, and display data on LCD  
 
 #include <hidef.h>      /* common defines and macros */
 #include <stdio.h>

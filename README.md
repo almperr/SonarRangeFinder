@@ -23,5 +23,8 @@ This is code used to program a MC9S12XEP100 to create a Sonar Range Finder. This
 **SonarRangeFinder/ECET309_Lab10&11/Sources/LCDfunctions.c**
 - contains all the functions to create the LCD drive
 
+**SonarRangeFinder/ECET309_Lab10&11/Sources/functions.c**
+- This file contains functions that drive the sonar module to send/receive a pulse, use ECT to time echo, and display data on the LCD
+
 
 
