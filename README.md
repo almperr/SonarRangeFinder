@@ -1,5 +1,5 @@
 # SonarRangeFinder
-This is code used to program a MC9S12XEP100 to create a Sonar Range Finder. This range finder uses sound to find the range, in feet, between a sonic transmitter and an object at the push of a button. The distance is displayed on an LCD screen. 
+This is code used to program a MC9S12XEP100 Micro-Controller to create a Sonar Range Finder. This range finder uses sound to find the range, in feet and inches, between a sonic transmitter and an object at the push of a button. The distance is displayed on an LCD screen. This project is programmed in C using Code Warrior IDE. This project demonstrates the use of the MC9S12XEP100's equipped Enhanced Capture Timers (ECT). When the button is pressed, a sound pulse is sent out. An ECT is activated and records the amount of time it takes for the pulse to send out, bounce off an object, and come back to the receiver. The travel time is converted to distance in feet and inches. The distance is then displayed on the LCD. Previously displayed information is cleared from the screen after every button press.  
 
 ### Hardware 
 

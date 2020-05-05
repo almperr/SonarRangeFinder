@@ -23,7 +23,7 @@ void SonarCheck(void)           //This function takes data from the sonar and ca
    volatile unsigned int init;
    volatile unsigned int echo;
    volatile unsigned int travelTime;
-   volatile unsigned int d;
+   volatile unsigned int dist;
    volatile unsigned int inches;
    volatile unsigned int feet;
    unsigned long prescale = 1000;
