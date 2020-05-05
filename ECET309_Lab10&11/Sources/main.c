@@ -2,16 +2,13 @@
 //Class:ECET 309
 //Assignment:Lab 10 & 11 - Sonar  
 //Date:3/29/2018
-//File Description: This file is main
+//File Description: This file is main. Initialize ECT, LCD driver, and IO port for sonar module. Wait for button press. Set LCD, collect data with sonar, and display on LCD
 
 #include <hidef.h>      /* common defines and macros */
 #include <stdio.h>
 #include "derivative.h"      /* derivative-specific definitions */
 #include "protos.h"
 #include "defs.h"
-
-
-
 
 
 void main(void) 
@@ -48,8 +45,6 @@ void main(void)
    
    SonarStart();                    //Activates the sonar module and clear the flags 
    SonarCheck();                    //Check the timers, calculate and display information
-   
-   
    
    
   } /* loop forever */
