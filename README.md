@@ -12,7 +12,7 @@ This is code used to program a MC9S12XEP100 Micro-Controller to create a Sonar R
 ### Files Discription
 
 **SonarRangeFinder/ECET309_Lab10&11/defs.c**
-- file contains defines for different settings on the LCD screen 
+- file contains defines for different settings on the LCD screen module
 
 **SonarRangeFinder/ECET309_Lab10&11/protos.h**
 - function prototypes
@@ -24,7 +24,7 @@ This is code used to program a MC9S12XEP100 Micro-Controller to create a Sonar R
 - contains all the functions to create the LCD drive
 
 **SonarRangeFinder/ECET309_Lab10&11/Sources/functions.c**
-- This file contains functions that drive the sonar module to send/receive a pulse, use ECT to time echo, and display data on the LCD
+- this file contains functions that drive the sonar module to send/receive a pulse, use ECT to time echo, and display data on the LCD
 
 
 
