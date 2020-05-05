@@ -2,7 +2,7 @@
 //Class:ECET 309
 //Assignment:Lab 10 & 11 - Sonar  
 //Date:3/29/2018
-//File Description: This file is initializing the ECT
+//File Description: This file contains all of the functions to create an LCD driver
 
 #include <hidef.h>      /* common defines and macros */
 #include "derivative.h" /* derivative-specific definitions */
